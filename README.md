@@ -10,3 +10,5 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 
 Then open nvim in nvim folder in .config, find packer.lua and do :so
 then :PackerSync and you are ready to go
+
+You also need to do :Copilot setup if you want copilot 
