@@ -40,3 +40,12 @@ then :PackerSync and you are ready to go.
 You also need to do :Copilot setup if you want copilot.
 For Copilot also install Node.js - https://nodejs.org/en/download/
 Then :Copilot enable to enable it
+
+Example command for nodejs:
+
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+(change 20.x with newest version number)
+
+
