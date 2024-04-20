@@ -32,8 +32,11 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
+You need to be able to open .config/nvim with nvim . to see all files and then navigate to packer.lua
+
 Then open nvim in nvim folder in .config, find packer.lua and do :so
 then :PackerSync and you are ready to go.
 
-You also need to do :Copilot setup if you want copilot. 
+You also need to do :Copilot setup if you want copilot.
+For Copilot also install Node.js - https://nodejs.org/en/download/
 Then :Copilot enable to enable it
